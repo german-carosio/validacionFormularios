@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+    /*
+	border: none;
+	outline: none;
+    */
+    box-sizing: border-box;
+}
+
+
+a , li {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1em;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor-header {
+    height: 60px;
+    border-bottom: solid 1px #000;
+    max-width: 1400px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor-main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario .fa-circle-xmark {
+    display: none;
+    color: red;
+}
+
+.formulario .fa-circle-check {
+    display: none;
+    color: green;
+}
+
+.formulario .msj {
+    display: none;
+    color: red;
+}
+
+.msj-formulario {
+    color: red;
+    display: none;
+}
